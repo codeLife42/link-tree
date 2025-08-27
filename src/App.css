@@ -1,0 +1,82 @@
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #0D80BF;
+  background-image: linear-gradient(270deg, rgba(13, 128, 191, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin-top: 5rem;
+}
+
+.thumb {
+  max-width: 10rem;
+  min-width: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.user-id {
+  margin: 0;
+  text-align: center;
+}
+
+.user-description {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.buttons-nav {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  width: 100%;
+  padding: 1rem 6rem;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: 0.2s;
+  margin: 0.5rem 10px;
+  font-weight: bold;
+  position: relative;
+  max-width: 300px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background-color: #f0f0f0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-name {
+  flex: 1;
+  text-align: center;
+}
+
+.btn-logo {
+  position: absolute;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+}
